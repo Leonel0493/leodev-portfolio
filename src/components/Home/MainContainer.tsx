@@ -1,5 +1,5 @@
 import MainContainerLeftSection from "./MainContainerLeftSection";
-import MainContainerRightSection from "./mainContainerRightSection";
+import MainContainerRightSection from "./MainContainerRightSection";
 
 const MainContainer = () => {
   return (
