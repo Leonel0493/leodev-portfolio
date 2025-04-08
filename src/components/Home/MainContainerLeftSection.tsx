@@ -6,8 +6,9 @@ const MainContainerLeftSection = () => {
     >
       <div
         id="main-content"
-        className="ml-[-10%] mt-[90%] pl-[20px] py-[12px] border-3 border-[#3A94C5] shadow-2xl rounded-xl font-JetBrains-Mono text-[#5C6A72]"
+        className="ml-[-10%] mt-[90%] pl-[20px] py-[12px] border-3 border-[#3A94C5] rounded-xl font-JetBrains-Mono text-[#5C6A72]"
         style={{
+          boxShadow: "8px 12px 30px rgba(0, 0, 0, 0.75)",
           transform: `
             translate3d(0px, 0px, 0px)
             scale3d(1, 1, 1)
