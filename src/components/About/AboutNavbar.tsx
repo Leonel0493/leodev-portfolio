@@ -1,32 +1,18 @@
 import NavbarCopyright from "../Shared/NavbarCopyright";
 import NavbarItem from "../Shared/NavbarItem";
 
-const Navbar = () => {
+const AboutNavbar = () => {
   return (
     <div
       id="navbar"
       className="w-[6%] h-screen px-1 py-2.5 flex-col items-start justify-start pt-[5%]"
     >
       <NavbarItem
-        href="https://www.linkedin.com/in/marvin-leonel-rivas-trejo-97a581150/"
-        title="LI"
-        textColor="#28282B"
+        href="/"
+        title="Home"
         hoverColor="#3A94C5"
-        isExternal={true}
-      />
-      <NavbarItem
-        href="#"
-        title="TW"
         textColor="#28282B"
-        hoverColor="#5C6A72"
-        isExternal={true}
-      />
-      <NavbarItem
-        href="https://github.com/Leonel0493"
-        title="GH"
-        textColor="#28282B"
-        hoverColor="#DF69BA"
-        isExternal={true}
+        isExternal={false}
       />
 
       {/* line separator */}
@@ -37,4 +23,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default AboutNavbar;
