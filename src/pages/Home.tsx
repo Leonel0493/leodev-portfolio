@@ -9,7 +9,7 @@ const Home = () => {
         id="wrapper"
         initial={{ height: "0vh", opacity: 0 }}
         animate={{ height: "100vh", opacity: 1 }}
-        transition={{ duration: 0.85, ease: "easeOut" }}
+        transition={{ duration: 0.85, ease: "easeIn" }}
         className="w-screen bg-[#FFE7DE] h-screen flex flex-row relative z-40"
       >
         <Navbar />
