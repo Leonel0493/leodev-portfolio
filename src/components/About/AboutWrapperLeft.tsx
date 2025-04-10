@@ -5,7 +5,7 @@ const AboutWrapperLeft = () => {
   return (
     <div
       id="about-wrapper-left"
-      className="w-2/5 h-screen flex flex-col justify-normal items-start"
+      className="w-3/5 h-screen flex flex-col justify-normal items-start"
     >
       <p
         id="about-header"
@@ -106,7 +106,9 @@ const AboutWrapperLeft = () => {
 
         <div className="my-20">
           <a
-            href="#"
+            href="/docs/Leonel Rivas CV 2025.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-2/5 h-auto py-5 px-6 bg-[#28282B] text-[#FFE7DE] text-center text-2xl font-Boldonse rounded-r-4xl hover:pr-24 transition-all duration-300 ease-in-out"
           >
             My CV
