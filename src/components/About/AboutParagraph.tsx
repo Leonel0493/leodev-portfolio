@@ -1,4 +1,4 @@
-import { FC, ReactNode } from "react";
+import { ReactNode, FC } from "react";
 
 type ParagraphProps = {
   children: ReactNode;
@@ -6,7 +6,7 @@ type ParagraphProps = {
 
 const AboutParagraph: FC<ParagraphProps> = ({ children }) => {
   return (
-    <p className="font-JetBrains-Mono text-[#28282B] text-sm font-light leading-[1.9] my-2.5">
+    <p className="font-JetBrains-Mono text-[#28282B] text-sm font-light leading-[1.9] my-2">
       {children}
     </p>
   );
