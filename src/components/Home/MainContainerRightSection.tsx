@@ -9,7 +9,10 @@ const MainContainerRightSection = () => {
       <nav id="main-nav" className="text-left pt-[10%] pl-[6%]">
         <MainContainerRightSectionNavItem displayName="Work" url="/work" />
         <MainContainerRightSectionNavItem displayName="About" url="/about" />
-        <MainContainerRightSectionNavItem displayName="Contact" url="#" />
+        <MainContainerRightSectionNavItem
+          displayName="Contact"
+          url="/contact"
+        />
       </nav>
     </div>
   );
