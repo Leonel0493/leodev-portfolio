@@ -2,7 +2,7 @@ const AboutWrapperRight = () => {
   return (
     <div id="about-wrapper-right" className="w-2/5 h-screen">
       <img
-        src="/img/IMG_1133.JPG"
+        src="/img/IMG_1192.JPG"
         alt="Leonel Rivas Developer"
         className="max-w-[400px] mt-[10%] block absolute top-[-15%] left-auto right-[20%] bottom-[0%] align-middle"
       />
