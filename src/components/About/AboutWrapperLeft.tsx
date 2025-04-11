@@ -45,15 +45,15 @@ const AboutWrapperLeft = () => {
 
         <AboutParagraph>
           What I love about being a Computer Science Engineer with a
-          specialization in Software Development is the ability to design
-          efficient and effective solutions that solve real-world problems. This
-          goes beyond typing a few lines of code, downloading a few libraries,
-          and it works; it involves having a passion for designing experiences
-          and solutions that help people in their daily lives. Leveraging
-          customer experience and understanding their needs is essential to
-          improving workflows, whether it's creating a payment spreadsheet or
-          developing systems that integrate cross-functional processes across
-          the company.
+          specialization in Software Develop Engineering is the ability to
+          design efficient and effective solutions that solve real-world
+          problems. This goes beyond typing a few lines of code, downloading a
+          few libraries, and it works; it involves having a passion for
+          designing experiences and solutions that help people in their daily
+          lives. Leveraging customer experience and understanding their needs is
+          essential to improving workflows, whether it's creating a payment
+          spreadsheet or developing systems that integrate cross-functional
+          processes across the company.
         </AboutParagraph>
 
         <AboutParagraph>This is one of my favorite quotes:</AboutParagraph>
@@ -76,7 +76,7 @@ const AboutWrapperLeft = () => {
 
         <AboutParagraph>- Degree in Computer Science Engineer</AboutParagraph>
         <AboutParagraph>
-          - 7 yeas of experience in Software Development, Agile and DevOps
+          - 7 yeas of experience in Software Engineer, Agile and DevOps
         </AboutParagraph>
 
         <div className="mt-6 mb-6">
