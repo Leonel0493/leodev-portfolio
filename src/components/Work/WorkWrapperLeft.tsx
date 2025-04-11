@@ -28,12 +28,12 @@ const WorkWrapperLeft = () => {
         <div id="technologies" className="block overflow-hidden">
           <p className="max-w-[80%] mx-0 text-xs font-light leading-[1.9em] relative">
             This is a sample of my best work, spanning various areas of software
-            development, including backend and frontend development.
+            development, including backend and frontend Software Engineer.
           </p>
           <p className="max-w-[80%] mt-2.5 mx-0 text-xs font-light leading-[1.9em] relative">
-            The world of software development is constantly evolving, so I've
-            held different roles over the past six years. This journey isn't
-            over, and I continue to learn and acquire new skills every day.
+            The world of software engineer is constantly evolving, so I've held
+            different roles over the past six years. This journey isn't over,
+            and I continue to learn and acquire new skills every day.
           </p>
         </div>
       </div>
