@@ -1,11 +1,12 @@
-import { FC, useRef } from "react";
+import { FC, ReactNode, useRef } from "react";
 
 type LinkProps = {
   href: string;
-  title: string;
+  title?: string;
   textColor: string;
   hoverColor: string;
   isExternal: boolean;
+  children?: ReactNode;
 };
 
 const NavbarItem: FC<LinkProps> = ({
@@ -14,6 +15,7 @@ const NavbarItem: FC<LinkProps> = ({
   textColor,
   hoverColor,
   isExternal,
+  children,
 }) => {
   const linkRef = useRef<HTMLAnchorElement>(null);
 
@@ -44,7 +46,7 @@ const NavbarItem: FC<LinkProps> = ({
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        {title}
+        {title || children}
       </a>
     </div>
   );
