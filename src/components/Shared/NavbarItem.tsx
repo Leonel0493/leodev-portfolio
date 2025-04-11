@@ -34,14 +34,14 @@ const NavbarItem: FC<LinkProps> = ({
   return (
     <div
       id="navbar-item"
-      className="flex-auto mb-10 pl-5 pr-5 transform rotate-[-90deg] items-center justify-center"
+      className="flex-auto mb-10 pl-5 pr-5 items-center justify-center"
     >
       <a
         ref={linkRef}
         href={href}
         target={isExternal ? "_blank" : "_self"}
         rel={isExternal ? "noopener noreferrer" : undefined}
-        className="text-center tracking-[5px] uppercase font-JetBrains-Mono font-bold text-xs block transition-colors duration-300"
+        className="text-center tracking-[5px] uppercase font-JetBrains-Mono font-bold text-xs block transform rotate-[-90deg] transition-colors duration-300"
         style={{ color: textColor }}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
