@@ -19,7 +19,7 @@ const Navbar = () => {
         <LinkedinIcon />
       </NavbarItem>
       <NavbarItem
-        href="#"
+        href="https://x.com/LeonelRivasDev"
         textColor="#28282B"
         hoverColor="#5C6A72"
         isExternal={true}
