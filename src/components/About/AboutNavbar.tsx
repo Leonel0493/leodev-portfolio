@@ -7,8 +7,8 @@ const AboutNavbar = () => {
       id="about-navbar-left"
       className="relative w-screen h-[10vh] px-[10%] flex flex-row justify-start items-center 
              sm:h-auto 
-             md:w-[10%] md:h-screen md:flex-col md:px-0 md:justify-start
-             lg:fixed lg:w-[6%] lg:h-screen lg:top-0 lg:left-0 lg:z-50 lg:py-[15px]"
+             md:w-[10%] md:py-[20px] md:h-screen md:flex-col md:px-0 md:justify-start md:fixed
+            lg:w-[6%] lg:h-screen lg:top-0 lg:left-0 lg:z-50 lg:py-[15px]"
     >
       <div
         id="navbar-items"
