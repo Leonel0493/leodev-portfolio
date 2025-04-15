@@ -4,9 +4,15 @@ const MainContainerRightSection = () => {
   return (
     <div
       id="main-container-right-section"
-      className="w-[75%] h-[90vh] float-right gap-x-4 gap-y-4 text-center flex-col justify-center items-center pt-[5vh] flex relative top-[0%] left-auto right-[0%] bottom-[0%]"
+      className="w-full h-auto flex flex-col items-start justify-start text-left
+                 md:pt-[6vh]
+                 lg:w-[80%] lg:h-[90vh] lg:column-gap-[16px] lg:row-gap-[16px] lg:pt-[5vh] lg:relative lg:relative lg:ml-[25%]"
     >
-      <nav id="main-nav" className="text-left pt-[10%] pl-[6%]">
+      <nav
+        id="main-nav"
+        className="flex flex-col text-left pl-[0px]
+                   lg:pt-[10%] lg:pl-[3%]"
+      >
         <MainContainerRightSectionNavItem displayName="Work" url="/work" />
         <MainContainerRightSectionNavItem displayName="About" url="/about" />
         <MainContainerRightSectionNavItem
