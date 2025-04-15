@@ -13,7 +13,7 @@ const About = () => {
         initial={{ height: "0vh", opacity: 0 }}
         animate={{ height: "100vh", opacity: 1 }}
         transition={{ duration: 0.85, ease: "easeOut" }}
-        className="w-screen bg-[#FFE7DE] h-screen flex flex-row relative z-40"
+        className="w-screen bg-[#FFE7DE] h-screen flex flex-col relative z-40"
       >
         <AboutNavbar />
         <AboutWrapper />

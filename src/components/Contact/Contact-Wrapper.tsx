@@ -4,12 +4,12 @@ const ContactWrapper = () => {
   return (
     <div
       id="contact-wrapper"
-      className="w-[94%] bg-[#28282B] flex flex-row mx-auto p-2.5 pl-6"
+      className="bg-[#28282B] max-w-full px-[10%] pb-[10%] mx-auto relative"
     >
       {/* Content Info */}
       <div
         id="contact-left-content"
-        className="w-2/5 flex flex-col justify-center items-start text-[#FFE7DE]"
+        className="w-full h-auto flex flex-col justify-center items-start static text-[#FFE7DE]"
       >
         <p
           id="header-conatct"

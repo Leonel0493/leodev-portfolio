@@ -5,7 +5,9 @@ const MainContainer = () => {
   return (
     <div
       id="main-container"
-      className="w-[94%] bg-[#FFE7DE] flex flex-row mx-auto pr-[5%] pl-[10%]"
+      className="relative bg-[#FFE7DE] w-screen h-auto flex flex-col px-[10%]
+      md:w-[90%] md:h-full md:mx-auto md:overflow-y-auto
+      lg:w-[94%] lg:flex-row"
     >
       <MainContainerLeftSection />
       <MainContainerRightSection />

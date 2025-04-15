@@ -4,7 +4,7 @@ const WorkWrapper = () => {
   return (
     <div
       id="work-wrapper"
-      className="w-[94%] bg-[#28282B] flex flex-row mx-auto pr-[5%] pl-[10%]"
+      className="bg-[#28282B] max-w-full px-[10%] pb-[10%] mx-auto relative"
     >
       <WorkWrapperLeft />
     </div>

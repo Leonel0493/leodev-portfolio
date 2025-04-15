@@ -1,14 +1,12 @@
 import AboutWrapperLeft from "./AboutWrapperLeft";
-import AboutWrapperRight from "./AboutWrapperRight";
 
 const AboutWrapper = () => {
   return (
     <div
       id="about-wrapper"
-      className="w-[94%] bg-[#FFE7DE] flex flex-row mx-auto p-2.5 pl-6"
+      className="bg-[#FFE7DE] w-full h-auto px-[10%] pb-[10%] mt-[10%] flex flex-col justify-center items-center"
     >
       <AboutWrapperLeft />
-      <AboutWrapperRight />
     </div>
   );
 };

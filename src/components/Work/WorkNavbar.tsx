@@ -5,7 +5,7 @@ const WorkNavbar = () => {
   return (
     <div
       id="navbar"
-      className="w-[6%] h-screen px-1 py-2.5 flex-col items-start justify-start pt-[5%]"
+      className="w-full h-[10%] flex flex-row items-center justify-center static pb-[0] px-[7%] pt-[5%]"
     >
       <NavbarItem
         href="/"
@@ -16,7 +16,7 @@ const WorkNavbar = () => {
       />
 
       {/* line separator */}
-      <div className="w-[1px] h-28 bg-[#FFE7DE] mt-2.5 mb-20 ml-[50%] "></div>
+      <div className="bg-[#FFE7DE] w-[40px] h-[2px] my-[0] ml-[7px] mr-[17px] pr-[0]"></div>
 
       <NavbarCopyright textColor="#FFE7DE" />
     </div>

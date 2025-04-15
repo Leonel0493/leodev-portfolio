@@ -2,13 +2,15 @@ const MainContainerLeftSection = () => {
   return (
     <div
       id="main-container-left-section"
-      className="w-[25%] h-screen flex flex-col justify-center items-start"
+      className="w-full h-auto flex flex-col justify-center items-start pt-[12%]
+                 md:pt-[60vh]
+                 lg:w-[25%] lg:pt-[2vh] lg:h-screen lg:fixed"
     >
       <div
         id="main-content"
-        className="ml-[-10%] mt-[90%] pl-[20px] py-[12px] border-3 border-[#3A94C5] rounded-xl font-JetBrains-Mono text-[#5C6A72]"
+        className="font-JetBrains-Mono text-[#28282B] 
+                   xl:ml-[-10%] xl:mt-[90%]"
         style={{
-          boxShadow: "8px 12px 30px rgba(0, 0, 0, 0.75)",
           transform: `
             translate3d(0px, 0px, 0px)
             scale3d(1, 1, 1)
@@ -19,8 +21,11 @@ const MainContainerLeftSection = () => {
           `,
         }}
       >
-        <div id="header-content" className="mb-[2vh] overflow-hidden">
-          <p className="tracking-[2px] uppercase text-sm font-extrabold">
+        <div
+          id="header-content"
+          className="mb-[1vh] xl:mb-[2vh] overflow-hidden"
+        >
+          <p className="tracking-[3px] uppercase xl:text-sm font-extrabold">
             Leonel Rivas
           </p>
         </div>

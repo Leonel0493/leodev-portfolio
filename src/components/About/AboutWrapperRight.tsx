@@ -1,6 +1,6 @@
 const AboutWrapperRight = () => {
   return (
-    <div id="about-wrapper-right" className="w-2/5 h-screen">
+    <div id="about-wrapper-right" className="">
       <img
         src="/img/IMG_1192.JPG"
         alt="Leonel Rivas Developer"
