@@ -6,7 +6,7 @@ type ParagraphProps = {
 
 const AboutParagraph: FC<ParagraphProps> = ({ children }) => {
   return (
-    <p className="font-JetBrains-Mono text-[#28282B] text-sm font-light leading-[1.9] my-2">
+    <p className="font-JetBrains-Mono font-normal leading-[1.9em] my-[15px]">
       {children}
     </p>
   );

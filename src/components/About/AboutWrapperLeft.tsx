@@ -5,41 +5,38 @@ const AboutWrapperLeft = () => {
   return (
     <div
       id="about-section-left"
-      className="w-full h-auto max-w-[768px] pt-[10%] pb-[12%] relative"
+      className="w-full min-h-screen pt-[10%] pb-[12%] flex flex-col justify-center items-start relative "
     >
-      <div id="about-content" className="block">
-        <img
-          src="/img/IMG_1192.JPG"
-          alt="Leonel Rivas Developer"
-          className="max-w-full w-[35%] top-[0%] bottom-[0%] left-auto right-[0%] align-middle block absolute ml-[0%] mt-[1%] mr-[0]"
-        />
+      <img
+        src="/img/IMG_1192.JPG"
+        alt="Leonel Rivas Developer"
+        className="mt-[1%] mb-[0] ml-[0%] w-[35%] left-auto top-[0%] bottom-[0%] right-[0%] absolute block"
+      />
 
+      <div
+        id="header-mask"
+        className="mb-[1vh] z-60
+                     md:pt-[10%]"
+      >
         <p
-          id="about-header"
-          className="w-full font-Boldonse text-left mt-[9%] mb-[2%] text-[10vw] font-light"
+          id="header"
+          className="text-left text-[14vw] tracking-[0] leading-[1em] font-Boldonse "
         >
           About
         </p>
+      </div>
 
-        <p
-          id="about-subtitle"
-          className="w-full font-Boldonse text-xl block pb-[2%] font-light leading-[1.9em]"
-        >
+      <div className="w-full lg:w-[65%]">
+        <p className="pb-[0%] text-[20px] leading-[1.3em] mt-[5%] font-Boldonse">
           Hi! Leonel here.
         </p>
 
-        <p
-          id="about-subtitle"
-          className="w-full font-Boldonse text-xl block pb-[2%] font-light leading-[1.9em]"
-        >
+        <p className="pb-[0%] text-[20px] leading-[1.3em] mt-[5%] mb-[8%] font-Boldonse">
           I'm a Computer Engineer, creative, efficient, and problem solver
           Engineer.
         </p>
 
-        <div
-          id="about-body"
-          className="overflow-y-auto max-h-[300px] pb-[6%] pr-3"
-        >
+        <div id="about-body" className="pb-[6%] pr-3 overflow-y-visible">
           <AboutParagraph>
             The efficiency, elegance, and craftsmanship of good code can make
             the difference between a cutting-edge product and just another
