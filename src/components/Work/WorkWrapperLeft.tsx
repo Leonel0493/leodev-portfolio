@@ -1,6 +1,9 @@
 const WorkWrapperLeft = () => {
   return (
-    <div id="work-wrapper-left" className="w-full h-auto pt-[10%] static">
+    <div
+      id="work-wrapper-left"
+      className="w-full min-h-screen pt-[10%] pb-[12%] flex flex-col justify-center items-start relative"
+    >
       <div
         id="work-content"
         className="w-full ml-[0%] pt-[0%] font-JetBrains-Mono text-[#FFE7DE] leading-[20px]"

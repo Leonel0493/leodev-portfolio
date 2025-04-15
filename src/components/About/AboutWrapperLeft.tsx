@@ -5,7 +5,7 @@ const AboutWrapperLeft = () => {
   return (
     <div
       id="about-section-left"
-      className="w-full min-h-screen pt-[10%] pb-[12%] flex flex-col justify-center items-start relative "
+      className="w-full min-h-screen pt-[10%] pb-[12%] flex flex-col justify-center items-start relative"
     >
       <img
         src="/img/IMG_1192.JPG"

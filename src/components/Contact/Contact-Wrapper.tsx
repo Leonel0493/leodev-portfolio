@@ -4,7 +4,9 @@ const ContactWrapper = () => {
   return (
     <div
       id="contact-wrapper"
-      className="bg-[#28282B] max-w-full px-[10%] pb-[10%] mx-auto relative"
+      className="bg-[#28282B] w-screen flex flex-col px-[10%]
+                 md:w-[90%] md:h-full md:mx-auto md:overflow-y-auto md:mb-[10%]
+                 lg:w-[94%] lg:flex-row"
     >
       {/* Content Info */}
       <div
