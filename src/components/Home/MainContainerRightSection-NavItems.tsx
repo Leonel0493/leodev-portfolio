@@ -46,13 +46,14 @@ const MainContainerRightSectionNavItem: FC<UrlProps> = ({
     <div
       ref={containerRef}
       id="nav-container"
-      className="opacity-[1] blur-[0px] h-auto text-right pl-[5%] my-[30px] inline-block relative"
+      className="opacity-[1] blur-[0px] h-auto text-left my-[30px] inline-block relative
+                 md:pl-[5%]"
     >
       <a
         href={url}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
-        className="z-10 text-[#28282B] uppercase font-Boldonse text-[8vw] font-light leading-[.95em] block relative"
+        className="z-10 text-[#28282B] uppercase font-Boldonse text-[7vw] font-light block whitespace-nowrap leading-[.95em]"
       >
         {displayName.split("").map((char, i) => (
           <span key={i} className="char inline-block">

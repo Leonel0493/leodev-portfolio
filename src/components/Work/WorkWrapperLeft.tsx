@@ -2,13 +2,12 @@ const WorkWrapperLeft = () => {
   return (
     <div
       id="work-wrapper-left"
-      className="w-[25%] h-screen flex flex-col justify-center items-start"
+      className="w-full min-h-screen pt-[10%] pb-[12%] flex flex-col justify-center items-start relative"
     >
       <div
         id="work-content"
-        className="ml-[-10%] mt-[90%] pl-[20px] py-[12px] border-3  font-JetBrains-Mono text-[#FFE7DE]"
+        className="w-full ml-[0%] pt-[0%] font-JetBrains-Mono text-[#FFE7DE] leading-[20px]"
         style={{
-          boxShadow: "8px 12px 30px rgba(0, 0, 0, 0.75)",
           transform: `
             translate3d(0px, 0px, 0px)
             scale3d(1, 1, 1)
@@ -19,18 +18,18 @@ const WorkWrapperLeft = () => {
           `,
         }}
       >
-        <div id="work-header" className="mb-[2vh] overflow-hidden">
+        <div id="work-header" className="mb-[1vh] overflow-hidden">
           <p className="tracking-[2px] uppercase text-sm font-extrabold">
             WORK
           </p>
         </div>
 
         <div id="technologies" className="block overflow-hidden">
-          <p className="max-w-[80%] mx-0 text-xs font-light leading-[1.9em] relative">
+          <p className="text-sm block overflow-hidden">
             This is a sample of my best work, spanning various areas of software
             development, including backend and frontend Software Engineer.
           </p>
-          <p className="max-w-[80%] mt-2.5 mx-0 text-xs font-light leading-[1.9em] relative">
+          <p className="mt-2.5 text-sm block overflow-hidden">
             The world of software engineer is constantly evolving, so I've held
             different roles over the past six years. This journey isn't over,
             and I continue to learn and acquire new skills every day.

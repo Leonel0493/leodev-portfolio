@@ -4,19 +4,32 @@ import NavbarItem from "../Shared/NavbarItem";
 const AboutNavbar = () => {
   return (
     <div
-      id="navbar"
-      className="w-[6%] h-screen px-1 py-2.5 flex-col items-start justify-start pt-[5%]"
+      id="about-navbar-left"
+      className="relative w-screen h-[10vh] px-[10%] flex flex-row justify-start items-center 
+             sm:h-auto 
+             md:w-[10%] md:py-[20px] md:h-screen md:flex-col md:px-0 md:justify-start md:fixed
+            lg:w-[6%] lg:h-screen lg:top-0 lg:left-0 lg:z-50 lg:py-[15px]"
     >
-      <NavbarItem
-        href="/"
-        title="Home"
-        hoverColor="#3A94C5"
-        textColor="#28282B"
-        isExternal={false}
-      />
+      <div
+        id="navbar-items"
+        className="w-auto h-full flex flex-row justify-center items-center 
+        sm:py-[2.5%] 
+        md:h-auto md:flex-col md:py-[0] md:pt-[20%] md:justify-start"
+      >
+        <NavbarItem
+          href="/"
+          title="Home"
+          hoverColor="#3A94C5"
+          textColor="#28282B"
+          isExternal={false}
+        />
+      </div>
 
       {/* line separator */}
-      <div className="w-[1px] h-28 bg-[#28282B] mt-2.5 mb-20 ml-[50%] "></div>
+      <div
+        className="bg-[#28282B] w-[50px] h-[1px] 
+                    md:w-[1px] md:h-[110px] md:my-6"
+      ></div>
 
       <NavbarCopyright textColor="#28282B" />
     </div>

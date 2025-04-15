@@ -7,36 +7,50 @@ import NavbarItem from "../Shared/NavbarItem";
 const Navbar = () => {
   return (
     <div
-      id="navbar"
-      className="w-[6%] h-screen px-1 py-2.5 flex-col items-start justify-start pt-[5%]"
+      id="navbar-left"
+      className="relative w-screen h-[10%] px-[10%] flex flex-row justify-start items-center 
+             sm:h-auto 
+             md:w-[10%] md:h-screen md:flex-col md:px-0 md:justify-start
+             lg:w-[6%]"
     >
-      <NavbarItem
-        href="https://www.linkedin.com/in/marvin-leonel-rivas-trejo-97a581150/"
-        textColor="#28282B"
-        hoverColor="#3A94C5"
-        isExternal={true}
+      <div
+        id="navbar-items"
+        className="w-auto h-full flex flex-row justify-center items-center 
+        sm:py-[2.5%] 
+        md:h-auto md:flex-col md:py-[0] md:pt-[20%] md:justify-start"
       >
-        <LinkedinIcon />
-      </NavbarItem>
-      <NavbarItem
-        href="https://x.com/LeonelRivasDev"
-        textColor="#28282B"
-        hoverColor="#5C6A72"
-        isExternal={true}
-      >
-        <XIcon />
-      </NavbarItem>
-      <NavbarItem
-        href="https://github.com/Leonel0493"
-        textColor="#28282B"
-        hoverColor="#DF69BA"
-        isExternal={true}
-      >
-        <GithubIcon />
-      </NavbarItem>
+        <NavbarItem
+          hoverColor="#3A94C5"
+          textColor="#28282B"
+          isExternal={true}
+          href="https://linkedin.com/in/marvin-leonel-rivas-trejo-97a581150/"
+        >
+          <LinkedinIcon />
+        </NavbarItem>
 
-      {/* line separator */}
-      <div className="w-[1px] h-28 bg-[#28282B] mt-2.5 mb-20 ml-[50%] "></div>
+        <NavbarItem
+          hoverColor="#DF69BA"
+          textColor="#28282B"
+          isExternal={true}
+          href="https://github.com/leonel-rivas"
+        >
+          <GithubIcon />
+        </NavbarItem>
+        <NavbarItem
+          hoverColor="#5C6A72"
+          textColor="#28282B"
+          isExternal={true}
+          href="https://x.com/LeonelRivasDev"
+        >
+          <XIcon />
+        </NavbarItem>
+      </div>
+
+      {/* line decoration */}
+      <div
+        className="bg-[#28282B] w-[50px] h-[1px] 
+                    md:w-[1px] md:h-[110px] md:my-6"
+      ></div>
 
       <NavbarCopyright textColor="#28282B" />
     </div>

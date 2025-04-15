@@ -6,7 +6,7 @@ type AboutHeaderProps = {
 
 const AboutHeader: FC<AboutHeaderProps> = ({ children }) => {
   return (
-    <p className="font-Boldonse text-xl text-left leading-[1.75em] uppercase tracking-[4px my-[7%]">
+    <p className="font-Boldonse font-normal leading-[1.9em] my-[3%]">
       {children}
     </p>
   );
