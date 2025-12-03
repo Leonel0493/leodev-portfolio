@@ -38,14 +38,14 @@ const MainContainerLeftSection = () => {
 
         <div id="current-job" className="block overflow-hidden mt-[10px]">
           <p className="max-w-[80%] mx-0 text-xs font-light leading-[1.9em] relative">
-            Currently working full-time as Engineering Developer at{" "}
+            Currently working full-time as Senior Programmer Analyst at{" "}
             <a
-              href="https://cikume.com/"
+              href="https://es.kyocera-avx.com/about/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#35A77C]"
+              className="hover:text-[#00739D]"
             >
-              Cikume Software
+              Kyocera-AVX
             </a>
           </p>
         </div>
